@@ -26,9 +26,9 @@ public class texto_monedas : MonoBehaviour {
 				imagen.SetActive (true);
 			}
 		}
-		Vector3 namePos = GameObject.FindGameObjectWithTag("minimapa").GetComponent<Camera>().WorldToScreenPoint(this.transform.position);
-		numero_monedas.transform.position = namePos;
-		imagen.transform.position = namePos;
+		//Vector3 namePos = GameObject.FindGameObjectWithTag("minimapa").GetComponent<Camera>().WorldToScreenPoint(this.transform.position);
+		//numero_monedas.transform.position = namePos;
+		//imagen.transform.position = namePos;
 
 
     }
